@@ -16,7 +16,7 @@ const Table = ({ users }) => {
               <th scope="col">Title</th>
               <th
                 scope="col"
-                onClick={() => {
+                onLoad={() => {
                   const usersCopy = [...users];
                   const updateSort = usersCopy.sort((a, b) => {
                       const nameA = a.name.first;
